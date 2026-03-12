@@ -1,6 +1,4 @@
-
 ## Commands to Create Project using Express and TypeScript
-
 1. npm init -y
 2. npm install -D typescript
 3. npx tsc --init
