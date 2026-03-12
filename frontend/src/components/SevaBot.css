@@ -1,0 +1,89 @@
+.sevabot-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: linear-gradient(to right, #016dd0, #159e52); /* gradient background */
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.sevabot-btn:hover {
+  opacity: 0.7; /* hover effect */
+}
+
+.sevabot-container{
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  width: 400px;   /* increased from 320px */
+  height: 520px;  /* increased from 420px */
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.sevabot-header{
+background: linear-gradient(to right, #016dd0, #159e52); /* gradient background */
+color:white;
+padding:12px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.sevabot-messages{
+flex:1;
+padding:10px;
+overflow-y:auto;
+}
+
+.bot{
+background:#f1f5f9;
+padding:8px;
+border-radius:10px;
+margin-bottom:8px;
+}
+
+.user{
+background:#3b82f6;
+color:white;
+padding:8px;
+border-radius:10px;
+margin-bottom:8px;
+text-align:right;
+}
+
+.quick-buttons button{
+margin:4px;
+padding:6px 10px;
+border:none;
+background:#e5e7eb;
+border-radius:10px;
+cursor:pointer;
+}
+
+.sevabot-input{
+display:flex;
+border-top:1px solid #eee;
+}
+
+.sevabot-input input{
+flex:1;
+padding:10px;
+border:none;
+}
+
+.sevabot-input button{
+background:#3b82f6;
+color:white;
+border:none;
+padding:10px 14px;
+cursor:pointer;
+}
